@@ -4,7 +4,8 @@
   "description": "Automation Test for Getir Interview",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "npx wdio run wdio.conf.js",
+    "report": "allure generate allure-results --clean && allure open"
   },
   "repository": {
     "type": "git",

@@ -7,7 +7,7 @@ describe('Test Case Study Suite', () => {
         HomePage.addAndDeleteProduct();
     });
 
-    it.only('Case 2', () => {
+    it('Case 2', () => {
         browser.pause(3000);
         HomePage.passWelcomeScreen();
         HomePage.openMenuAndChooseCategoryAndProduct();
